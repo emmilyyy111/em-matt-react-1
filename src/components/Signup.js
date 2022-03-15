@@ -17,7 +17,7 @@ const Signup = () => {
         }) 
         
         .then(res => res.json())
-        .then(data => alert(data.message))
+        .then(data => alert(data))
         .catch((err) => alert(err))
     }
 
