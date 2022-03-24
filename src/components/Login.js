@@ -31,7 +31,7 @@ const Login = () => {
           label="Email"
           type="email"
           variant="outlined"
-          required
+          // required
           onChange={(e) => setEmail(e.target.value)}
         />
         <TextField
